@@ -1,0 +1,22 @@
+$header: #0059ff;
+$head-font: Helvetica,
+Arial,
+sans-serif;
+$base-value: 10px;
+.form-header {
+    background: $header;
+}
+
+.main-header {
+    background: $header;
+    font-family: $head-font;
+}
+
+h1 {
+    font-family: $head-font;
+}
+
+p {
+    font-size: $base-value + 10px; // la taille de la police des élément HTML <p> sera de 20px
+    width: $base-value * (10+5) - 50px; // la largeur des élément HTML <p> sera de 100px
+}

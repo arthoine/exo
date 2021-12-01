@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sélecteurs et combinateurs</title>
+    <style>
+        nav a:hover,
+        nav>ul.site-navigation>li>a:hover {
+            color: #2657cf;
+            text-decoration: underline;
+        }
+
+        p::selection {
+            background-color: rgba(0, 255, 85, 0.15);
+        }
+
+        /* Code déjà présent */
+        nav a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav>ul.site-navigation>li {
+            display: inline;
+            list-style: none;
+            color: green;
+            font-size: 14px;
+            margin: 10px;
+        }
+
+        nav>ul.site-navigation>li>a {
+            color: #2b2b2b;
+        }
+
+        nav>a {
+            color: brown;
+        }
+
+        body {
+            font-family: Calibri, sans-serif;
+            color: #000634;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Déconnexion</a>
+        <ul class="site-navigation">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Page précédente - L'héritage</a></li>
+            <li>Sélecteurs et combinateurs</li>
+            <li><a href="#">Page suivante - Pseudo - class</a></li>
+        </ul>
+    </nav>
+
+    <h1>Sélecteurs et combinateurs</h1>
+
+    <section class="context">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+        </p>
+    </section>
+
+    <section class="presentation">
+        <h2>Présentation</h2>
+        <p id="presentation">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+        </p>
+
+        <h2>Objectifs</h2>
+        <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+        </ul>
+    </section>
+</body>
+
+</html>

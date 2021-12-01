@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Choisissez une ou plusieurs réponses :</p>
+    <div>
+        <input type="checkbox" id="rep1" name="rep1" checked>
+        <label for="rep1">Réponse 1</label>
+    </div>
+    <div>
+        <input type="checkbox" id="rep2" name="rep2">
+        <label for="rep2">Réponse 2</label>
+    </div>
+    <div>
+        <input type="checkbox" id="rep3" name="rep3">
+        <label for="rep3">Réponse 3</label>
+    </div>
+
+    <p>Sélectionnez une option :</p>
+    <div>
+        <input type="radio" id="opt1" name="option-radio" value="opt1" checked>
+        <label for="opt1">Option 1</label>
+    </div>
+    <div>
+        <input type="radio" id="opt2" name="option-radio" value="opt2">
+        <label for="opt2">Option 2</label>
+    </div>
+
+    <label for="reponse-selector">Choisissez une réponse :</label>
+    <select name="reponse-selector" id="reponse-selector">
+    <option value="">Selectionnez une réponse</option>
+    <option value="rep1">Réponse 1</option>
+    <option value="rep2">Réponse 2</option>
+    <option value="rep3">Réponse 3</option>
+    <option value="rep4">Réponse 4</option>
+</select>
+    <br><br><br>
+    <label for="category">Catégorie de question</label>
+    <select id="category" name="category">
+    <option value="default">Choisissez une catégorie</option>
+    <option value="help">Aide</option>
+    <option value="pro-contact">Contact professionnel</option>
+</select>
+
+    <div class="advert-wrapper">
+        <p>Souhaitez-vous recevoir nos news ?</p>
+        <input type="radio" id="yes" name="news-question" value="yes" checked>
+        <label for="yes">Oui</label>
+        <input type="radio" id="no" name="news-question" value="no">
+        <label for="no">Non</label>
+    </div>
+    <br><br><br>
+
+    <fieldset>
+        <legend>Quel est votre animal préféré ?</legend>
+
+        <input type="radio" id="cat" name="animal">
+        <label for="cat">Chat</label><br/>
+
+        <input type="radio" id="dog" name="animal">
+        <label for="dog">Chien</label><br/>
+
+        <input type="radio" id="rabbit" name="animal">
+        <label for="rabbit">Lapin</label>
+    </fieldset>
+
+
+</body>
+
+</html>

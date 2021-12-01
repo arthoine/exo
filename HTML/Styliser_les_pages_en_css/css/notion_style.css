@@ -1,0 +1,26 @@
+.boxWithTransition {
+    width: 400px;
+    height: 200px;
+    background: gray;
+}
+
+.boxWithTransition:hover {
+    transition: all 0.8s ease;
+    height: 700px;
+    background: blue;
+}
+
+@keyframes changeColor {
+    0% {
+        background: red;
+    }
+    40% {
+        background: yellow;
+    }
+    90% {
+        background: green;
+    }
+    100% {
+        background: blue;
+    }
+}

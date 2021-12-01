@@ -1,0 +1,32 @@
+html,
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "header header header" "archives content ads" "sponsors footer footer";
+}
+
+.header {
+    grid-column-start: [start];
+    grid-column-end: [end];
+    grid-row-start: 1;
+    background: lightblue;
+}
+
+.content {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    background: lightpink;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    background: palegoldenrod;
+}

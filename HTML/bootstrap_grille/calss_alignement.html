@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        .container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .row-custom {
+            border: 1px solid #ddd;
+            background: #eee;
+            height: 200px;
+        }
+        
+        .row div {
+            border: 1px solid #aaa;
+            background: #ccc;
+            padding: 15px;
+        }
+        
+        .row-custom div {
+            height: 50px;
+        }
+        
+        .row {
+            height: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-between
+        justify-content-sm-around">
+            <div class="col col-sm-8">Colonne</div>
+            <div class="col col-sm-1">Colonne</div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row align-items-end align-items-sm-start">
+            <div class="col col-sm-8">Colonne</div>
+            <div class="col col-sm-1">Colonne</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-custom align-items-center">
+            <div class="col">Colonne</div>
+            <div class="col-6">Colonne</div>
+            <div class="col">Colonne</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-custom">
+            <div class="col">Colonne</div>
+            <div class="col align-self-center">Colonne</div>
+            <div class="col-8 align-self-end">Colonne</div>
+        </div>
+    </div>
+</body>
+
+<!-- jQuery  -->
+<script>
+    src = "../Bootstrap/jquery/dist/jquery.min.js"
+</script>
+<!-- Bootstrap JavaScript -->
+<script>
+    src = "../Bootstrap/js/bootstrap.bundle.js"
+</script>
+
+</html>

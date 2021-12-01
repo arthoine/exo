@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Mon premier blog</a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Mes articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Me contacter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mon CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="col-12" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Mes articles</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!--                       barre de progression                    -->
+        <div class="row">
+            <h2 class="col-12">Ma dernière campagne de financement</h2>
+            <div class="alert alert-success col-12">
+                <p>Vous avez été nombreux à participer à ma dernière campagne de financement! Merci à tous !</p>
+                <!-- Définition du composant -->
+                <div class="progress">
+                    <!-- Barre de progrès, ici à 90% remplie-->
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="800" aria-valuemin="0" aria-valuemax="1000">800€ / 1000€</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--                       Pagination                    -->
+        <div class="row">
+            <nav class="col-12" aria-label="Page navigation example">
+                <!-- Déclaration du composant + On indique qu'il sera placé à l'extrémité de la page -->
+                <ul class="pagination justify-content-end">
+                    <!-- Item de navigation, ici désactivé car on se trouve en page 1 -->
+                    <li class="page-item disabled">
+                        <!-- Lien vers la page concernée -->
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                              </svg></span>
+                        </a>
+                    </li>
+                    <!-- Page courante -->
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                              </svg></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <section>
+            <h2>Mes articles</h2>
+            <div class="row row-cols-1 row-cols-sm-2">
+                <article class="col p-2">
+                    <div class="card">
+                        <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper mi est, ac molestie nibh laoreet in. Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                            </p>
+                            <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col p-2">
+                    <div class="card">
+                        <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper mi est, ac molestie nibh laoreet in. Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                            </p>
+                            <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col p-2">
+                    <div class="card">
+                        <img src="http://placeimg.com/600/200/arch" class="card-img-top rounded-lg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper mi est, ac molestie nibh laoreet in. Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
+                            </p>
+                            <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+</body>
+<!-- jQuery -->
+<script>
+    src = "../Bootstrap/jquery/dist/jquery.min.js"
+</script>
+<!-- Bootstrap CDN JavaScript -->
+<script>
+    src = "../Bootstrap/js/bootstrap.bundle.js"
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>

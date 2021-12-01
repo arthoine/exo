@@ -1,0 +1,32 @@
+.text-element span {
+  color: red;
+}
+
+/***
+si on as besoin d'une class
+
+.highlight {
+    color: red;
+}
+
+***/
+.text-element {
+  text-align: right;
+  margin: 1rem 0;
+}
+
+.text-element .block-element {
+  font-size: 3rem;
+  line-height: 1em;
+}
+
+.text-element .block-element:before, .text-element .block-element:after {
+  content: '"';
+}
+
+.text-element span {
+  font-family: Arial, serif;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=test.css.map */

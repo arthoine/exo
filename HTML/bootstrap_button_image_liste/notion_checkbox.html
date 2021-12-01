@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>list</title>
+    <!-- Bootstrap CSS -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-12 col-md-4 col-ls-3 col-xl-2">
+                <form>
+
+                    <div class="form-group mb-3">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email">
+                    </div>
+
+                    <label>Quel est votre sexe?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sexe" id="sexeM" value="h">
+                        <label class="form-check-label" for="sexeM">
+                Homme
+              </label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" name="sexe" id="sexeF" value="f">
+                        <label class="form-check-label" for="sexeF">
+                Femme
+              </label>
+                    </div>
+
+                    <label>Pratiquez vous un sport?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sport" id="sportTrue" value="y">
+                        <label class="form-check-label" for="sexeM">
+                Oui
+              </label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" name="sport" id="sportFalse" value="n">
+                        <label class="form-check-label" for="sexeF">
+                Non
+              </label>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="text">Si oui le ou lesquels</label>
+                        <input type="text" class="form-control" id="text" aria-describedby="text">
+                    </div>
+
+                    <button type="button" class="btn btn-primary">Valider</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<!-- jQuery -->
+<script>
+    src = "../Bootstrap/jquery/dist/jquery.min.js"
+</script>
+<!-- Bootstrap CDN JavaScript -->
+<script>
+    src = "../Bootstrap/js/bootstrap.bundle.js"
+</script>
+
+</html>

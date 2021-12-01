@@ -1,0 +1,39 @@
+.btn.info, .btn.error, .btn.success {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn.info {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+  margin: 5px;
+  background: #0059ff;
+  color: #ffffff;
+}
+
+.btn.error {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+  margin: 5px;
+  background: #d63031;
+  color: #e78586;
+}
+
+.btn.success {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+  margin: 5px;
+  background: #00b894;
+  color: #1fffd3;
+}
+/*# sourceMappingURL=notion_avancé.css.map */

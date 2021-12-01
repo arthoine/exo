@@ -1,0 +1,36 @@
+%flex-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+$info: #0059ff;
+$success: #00b894;
+$error: #d63031;
+$white: #ffffff;
+@mixin myButton ($color) {
+    @extend %flex-centered;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 30px;
+    margin: 5px;
+    background: $color;
+    @if $color==$info {
+        color: $white;
+    }
+    @else {
+        color: lighten($color, 20%);
+    }
+}
+
+.btn {
+    &.info {
+        @include myButton($info);
+    }
+    &.error {
+        @include myButton($error);
+    }
+    &.success {
+        @include myButton($success);
+    }
+}

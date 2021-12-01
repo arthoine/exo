@@ -1,0 +1,42 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #000634;
+}
+
+h2{
+    color: #000634;
+}
+
+h3{
+    font-style: italic;
+    color: #2b2b2b;
+}
+
+h4{
+    text-decoration: underline ;
+}
+
+p{
+    padding: 5px;
+    text-align: justify;
+}
+
+.definition{
+    background-color: #e0ecec ;
+}
+
+.sample{
+    background-color: lightgray;
+}
+
+.syntax{
+    background-color: cornsilk;
+}
+
+.warning{
+    background-color: lightcoral;
+}

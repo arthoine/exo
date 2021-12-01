@@ -1,0 +1,38 @@
+p {
+    padding: 10px;
+    background-color: beige;
+}
+
+p.sample {
+    background-color: darkgray;
+    font-style: italic;
+}
+
+h3.method {
+    text-decoration: underline;
+}
+
+p.method {
+    background-color: gray;
+}
+
+#definition {
+    background-color: sandybrown;
+    padding: 12px;
+    border: 1px solid black;
+}
+body{
+    font-family: Calibri,sans-serif;
+    color: #000634;
+}
+section.context{
+    font-family: tahoma;
+    color: #2657cf;
+}
+h2,h3{
+    color: darkblue;
+}
+.warning{
+    color: #cf3e4f;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+html {
+    font-size: 40px;
+}
+
+.header {
+    background-color: green;
+    height: 200px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.main {
+    background-color: blue;
+    height: 500px;
+    width: 800px;
+    font-size: 1rem;
+}
+
+.content {
+    background-color: purple;
+    height: 100%;
+    width: 150px;
+}
+
+.taille1 {
+    font-size: 1em;
+}
+
+.taille2 {
+    font-size: 2em;
+}
+
+.taille3 {
+    font-size: 3em;
+}

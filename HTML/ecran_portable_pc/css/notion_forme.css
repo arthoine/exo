@@ -1,0 +1,24 @@
+.change-width {
+    border: 5px solid red;
+    width: 40%;
+}
+
+.change-height {
+    border: 5px solid purple;
+    height: 2em;
+}
+
+.bottom-right {
+    background-color: red;
+    float: right;
+    width: 50%;
+}
+
+.change-viewport {
+    font-size: 7vh;
+}
+
+div {
+    font-size: 16px;
+    /*Cette valeur peut être changée pour modifier la hauteur des éléments ayant la classe change-height*/
+}

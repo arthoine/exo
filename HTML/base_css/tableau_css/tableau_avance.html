@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table>
+        <caption>Liste des utilisateurs du blog</caption>
+        <thead>
+            <th>Domaine</th>
+            <th>Nom prénom</th>
+            <th>Email</th>
+            <th>Statut</th>
+        </thead>
+        <tr>
+            <td>Domaine Jardinage</td>
+            <td>Jean Michel</td>
+            <td><a href="mailto:" jean.michel@mail.fr>jean.michel@mail.fr</a></td>
+            <td>Rédacteur</td>
+        </tr>
+        <tr>
+            <td>Domaine Jardinage</td>
+            <td>Dupont Audrey</td>
+            <td><a href="mailto:audrey.dupont@mail.fr">audrey.dupont@mail.fr</a></td>
+            <td>Validateur</td>
+        </tr>
+        <tr>
+            <td>Domaine Jardinage</td>
+            <td>Eddie Katherine</td>
+            <td><a href="mailto:kath.eddi@mail.fr">kath.eddi@mail.fr</a></td>
+            <td>Rédacteur</td>
+        </tr>
+        <tr>
+            <td>Domaine Informatique</td>
+            <td>Martin Fred</td>
+            <td><a href="mailto:fred.martin@mail.fr">fred.martin@mail.fr</a></td>
+            <td>Validateur</td>
+        </tr>
+        <tr>
+            <td>Domaine Informatique</td>
+            <td>Thephen Stéphanie</td>
+            <td><a href="mailto:stephanie.the@mail.fr">stephanie.the@mail.fr</a></td>
+            <td>Rédacteur</td>
+        </tr>
+    </table><br><br><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>En-tête 1</th>
+                <th colspan="2">2 colonnes fusionnées</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">2 lignes fusionnées</td>
+                <td>Ligne 1 - Colonne 2</td>
+                <td>Ligne 1 - Colonne 3</td>
+            </tr>
+            <tr>
+                <td>Ligne 2 - Colonne 1</td>
+                <td>Ligne 2 - Colonne 2</td>
+            </tr>
+        </tbody>
+    </table><br><br><br>
+    <table border="1">
+        <caption>Liste des utilisateurs du blog</caption>
+        <thead>
+            <th>Domaine</th>
+            <th>Nom prénom</th>
+            <th>Email</th>
+            <th>Statut</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Jardinage</td>
+                <td>Jean Michel</td>
+                <td>jean.michel@mail.fr</td>
+                <td>Rédacteur</td>
+            </tr>
+            <tr>
+                <td>Dupont Audrey</td>
+                <td>audrey.dupont@mail.fr</td>
+                <td>Validateur</td>
+            </tr>
+            <tr>
+                <td>Eddie Katherine</td>
+                <td>kath.eddie@mail.fr</td>
+                <td>Rédacteur</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Informatique</td>
+                <td>Martin Fred</td>
+                <td>fred.martin@mail.fr</td>
+                <td>Validateur</td>
+            </tr>
+            <tr>
+                <td>Thephen Stéphanie</td>
+                <td>stephanie.the@mail.fr</td>
+                <td>Rédacteur</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"></td>
+                <td>3 redacteur 2 validateur</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

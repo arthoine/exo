@@ -1,0 +1,20 @@
+.box {
+    margin: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.transition-width {
+    transition: width 500ms;
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.transition-width:hover {
+    transition: all 500ms;
+    width: 400px;
+    background: #5352ed;
+}

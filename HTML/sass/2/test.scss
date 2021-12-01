@@ -1,0 +1,32 @@
+%highlight {
+    color: red;
+}
+
+
+/***
+si on as besoin d'une class
+
+.highlight {
+    color: red;
+}
+
+***/
+
+.text-element {
+    text-align: right;
+    margin: 1rem 0;
+    .block-element {
+        font-size: 3rem;
+        line-height: 1em;
+        &:before,
+        &:after {
+            content: '"';
+        }
+    }
+    span {
+        @extend %highlight;
+        font-family: Arial, serif;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,50 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+h3,
+header,
+footer {
+    font-style: italic;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+footer {
+    background-color: #005cbf;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+main {
+    display: inline-block;
+    width: 74%;
+}
+
+aside {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+section,
+article {
+    padding: 20px;
+}

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Exemple</title>
+    <style>
+        header {
+            height: 200px;
+            background-color: cadetblue;
+        }
+        
+        .logo,
+        .badge {
+            background-color: coral;
+        }
+        
+        nav {
+            height: 80px;
+            background-color: darkgoldenrod;
+        }
+        
+        aside {
+            height: 1000px;
+            background-color: lightslategray;
+        }
+        
+        .article1,
+        .article2,
+        .article3 {
+            height: 400px;
+            background-color: deeppink;
+        }
+        
+        .article4 {
+            height: 600px;
+            background-color: greenyellow;
+        }
+        
+        footer {
+            height: 200px;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="logo col-3">LOGO</div>
+            <div class="col"></div>
+            <div class="badge col-md-2 col-4">BADGE</div>
+        </header>
+        <nav class="row">
+            NAV
+        </nav>
+        <section class="row">
+            <aside class="col-md-2 col-4">ASIDE</aside>
+            <div class="col-md-10 col-8">
+                <div class="row">
+                    <article class="article1 col-md-3 col-12">ARTICLE1</article>
+                    <article class="article2 col-md-3 col-12">ARTICLE2</article>
+                    <article class="article3 col-md-3 col-12">ARTICLE3</article>
+                </div>
+                <article class="article4 row">ARTICLE4</article>
+            </div>
+        </section>
+        <footer class="row">
+            FOOTER
+        </footer>
+    </div>
+</body>
+<!-- jQuery  -->
+<script>
+    src = "../Bootstrap/jquery/dist/jquery.min.js"
+</script>
+<!-- Bootstrap JavaScript -->
+<script>
+    src = "../Bootstrap/js/bootstrap.bundle.js"
+</script>
+
+</html>

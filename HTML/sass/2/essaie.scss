@@ -1,0 +1,18 @@
+@mixin button($color, $background-color, $hover-color) {
+    &:hover {
+        @if $background-color=='white' {
+            background-color: darken($hover-color, 5%);
+        }
+        @else if $background-color=='red' {
+            background-color: #00a900;
+        }
+        @else {
+            background-color: lighten($hover-color, 8%);
+        }
+    }
+}
+
+.info,
+.valid {
+    @include button(green, "red", green);
+}

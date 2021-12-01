@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        main p {
+            color: blue;
+        }
+
+        main>p {
+            color: red;
+        }
+        div + p{
+            color: green;
+        }
+        div ~ p{
+            background-color: lightblue;
+        }
+        span + div > strong{
+            color: yellow;
+        }
+
+
+    </style>
+
+    <span>
+        zaeaze
+    </span>
+    <div>
+        <strong>azeaze</strong>    
+    </div>
+    <p>
+        1azeaze
+    </p>
+    <p>
+        2azeazeaze
+    </p>
+    <main>
+        <p>azeazeaze</p>
+        <div>
+            <p>azeazeaz</p>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

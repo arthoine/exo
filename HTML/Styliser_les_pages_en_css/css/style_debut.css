@@ -1,0 +1,64 @@
+.test-color {
+    height: 200px;
+    width: 200px;
+}
+
+.named {
+    background: #ff22dd;
+}
+
+.hex {
+    background: #222222;
+}
+
+.rgb {
+    background: rgb(128, 103, 29);
+}
+
+.hsl {
+    background: hsl(0, 18%, 52%);
+}
+
+.rgba {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hsla {
+    background: hsla(0, 0%, 0%, 0.2);
+}
+
+.shadow {
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background: rgb(170, 141, 141);
+    box-shadow: 10px 5px 15px hsla(0, 0%, 50%, 0.2);
+    border-radius: 20px 0px 9px 50px;
+}
+
+.some-other-div {
+    border-radius: 50%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 9, 92);
+    box-shadow: 10px 5px 15px rgb(168, 15, 15);
+}
+
+.degrader {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(green, purple);
+}
+
+.degrader-image {
+    padding: 20px;
+    width: 400px;
+    height: 140px;
+    background: radial-gradient(green, purple);
+    background-image: url(https://picsum.photos/id/602/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Mon espace personnel</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="text-center">Bienvenue sur mon blog!</h1>
+
+        <h2 class="pb-2">Qui suis-je ?</h2>
+        <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </header>
+    <div class="container">
+        <main>
+            <div class="alert alert-info" role="alert">
+                <h4 class="alert-heading">Bonjour !</h4>
+                Il s'agit de mes premiers articles, soyez indulgents. Pour me contacter, vous pouvez <a class="alert-link" href="#contact">cliquer ici</a>.
+
+            </div>
+            <section class="p-2 bg-light">
+                <h2 class="pb-2">Mes derniers articles</h2>
+
+                <article>
+                    <h3>Lorem Ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div class="text-right">
+                        <button class="btn btn-info">Lire la suite</button>
+                    </div>
+                </article>
+            </section>
+            <hr>
+            <section class="p-2">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="pb-2" id="contact">Me contacter</h2>
+                        <div>
+                            <form>
+                                <div class="form-group">
+                                    <label for="email">Adresse e-mail</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success">Contactez-moi</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2 class="pb-2">Derniers utilisateurs inscrits</h2>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Nom</th>
+                                    <th>Prénom</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                </tr>
+                                <tr>
+
+                                    <td>Laure</td>
+                                    <td>Mipsum</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- jQuery CDN -->
+    <script>
+        src = "../Bootstrap/jquery/dist/jquery.min.js"
+    </script>
+    <!-- Bootstrap CDN JavaScript -->
+    <script>
+        src = "../Bootstrap/js/bootstrap.bundle.js"
+    </script>
+</body>
+
+</html>

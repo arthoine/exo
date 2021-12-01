@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css_formulaire.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Mon formulaire de contact</title>
+        <meta charset="utf-8" />
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+
+    </head>
+
+    <body>
+
+        <div class="contact-wrapper">
+            <form class="form-horizontal" method="post" action="contact.php">
+                <h1 class="section-header">Posez-nous vos questions !</h1>
+
+                <label for="name">Nom</label>
+                <input type="text" id="name" placeholder="nom" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="email@mail.com" name="email" required>
+
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" placeholder="0600000000" name="phone">
+
+                <label for="category">Catégorie de question</label>
+                <select id="category" name="category">
+          <option value="default">Choisissez une catégorie</option>
+          <option value="help">Aide</option>
+          <option value="pro-contact">Contact professionnel</option>
+        </select>
+
+                <label for="message">Message</label>
+                <textarea rows="10" id="message" name="message" required></textarea>
+
+                <button class="send-button" id="submit" type="submit">Envoyer</button>
+
+                <div class="advert-wrapper">
+                    <p>Souhaitez-vous recevoir nos news ?</p>
+                    <input type="radio" id="yes" name="news-question" value="yes" checked>
+                    <label for="yes">Oui</label>
+                    <input type="radio" id="no" name="news-question" value="no">
+                    <label for="no">Non</label>
+                </div>
+            </form>
+        </div>
+    </body>
+
+
+    </html>
+
+
+</body>
+
+</html>

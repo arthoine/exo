@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: flex-start;
+            height: 100vh;
+        }
+
+
+        .item {
+            background: orange;
+            padding: 5px;
+            width: 200px;
+            margin: 5px;
+            line-height: 50px;
+            color: white;
+            text-align: center;
+        }
+
+        .one {
+            order: 2;
+        }
+
+        .two {
+            order: 0;
+        }
+
+        .three {
+            order: 1;
+        }
+
+
+        .parent1 {
+            display: flex;
+            width: 1000px;
+            border: 5px solid gray;
+        }
+
+        .enfant1 {
+            flex: 1;
+            background-color: purple;
+        }
+
+
+        .enfant2 {
+            flex: 3;
+            background-color: saddlebrown;
+        }
+
+
+        .enfant10 {
+            flex-shrink: 1;
+            background: #0984e3;
+            width: 200px;
+        }
+
+        .enfant20 {
+            flex-shrink: 2;
+            background: #00b894;
+            width: 200px;
+        }
+
+        .enfant30 {
+            flex-shrink: 1;
+            background: #a29bfe;
+            width: 200px;
+        }
+
+        .enfant40 {
+            flex-shrink: 2;
+            background: #fdcb6e;
+            width: 200px;
+        }
+
+        .enfant50 {
+            flex-shrink: 1;
+            background: #00cec9;
+            width: 200px;
+        }
+
+        .enfant60 {
+            flex-shrink: 2;
+            background: #e17055;
+            width: 200px;
+        }
+
+        .enfant70 {
+            flex-shrink: 1;
+            background: #e84393;
+            width: 200px;
+        }
+
+        .enfant80 {
+            flex-shrink: 2;
+            background: #2d3436;
+            width: 200px;
+        }
+
+        .enfant90 {
+            flex-shrink: 1;
+            background: #1e3799;
+            width: 200px;
+        }
+
+        .enfant100 {
+            flex-shrink: 2;
+            background: #f6b93b;
+            width: 200px;
+        }
+    </style>
+    <div class="parent1">
+        <div class="enfant1">
+            <p>enfant 1</p>
+        </div>
+        <div class="enfant2">
+            <p>enfant 2</p>
+        </div>
+    </div>
+
+    <div class="parent1">
+        <div class="enfant10">
+            <p> 1</p>
+        </div>
+        <div class="enfant20">
+            <p> 2</p>
+        </div>
+        <div class="enfant30">
+            <p> 1</p>
+        </div>
+        <div class="enfant40">
+            <p> 2</p>
+        </div>
+        <div class="enfant50">
+            <p> 1</p>
+        </div>
+        <div class="enfant60">
+            <p> 2</p>
+        </div>
+        <div class="enfant70">
+            <p> 1</p>
+        </div>
+        <div class="enfant80">
+            <p> 2</p>
+        </div>
+        <div class="enfant90">
+            <p> 1</p>
+        </div>
+        <div class="enfant100">
+            <p> 2</p>
+        </div>
+    </div>
+
+    <ul class="container">
+        <li class="item one">1</li>
+        <li class="item two">2</li>
+        <li class="item three">3</li>
+    </ul>
+
+</body>
+
+</html>

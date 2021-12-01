@@ -1,0 +1,42 @@
+.text-element {
+    padding: 10px 0;
+}
+
+.menu {
+    display: none;
+}
+
+li {
+    width: 90%;
+}
+
+@media screen and (max-width: 1023px) {
+    ul {
+        list-style-type: none;
+    }
+    .text-element {
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: pre;
+    }
+}
+
+@media screen and (max-width: 741px) {
+    .list {
+        list-style-type: none;
+        margin: 15px 0;
+    }
+    .menu {
+        display: flex;
+    }
+    .text-element {
+        display: none;
+    }
+    li:hover {
+        cursor: pointer;
+    }
+    .title {
+        padding: 0 10px;
+    }
+}

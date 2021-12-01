@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .blocPX {
+            background-color: green;
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            margin: 50px;
+        }
+
+        /*
+        px  = pixel
+        em  = unité basé sur la taille du bloc parent
+        rem = unité basé sur le bloc racine
+        vh / vw = unité basé sur la fenêtre
+        */
+        .parent {
+            font-size: 18px;
+        }
+
+        .enfant {
+            font-size: 2em;
+        }
+
+        html {
+            font-size: 20px;
+        }
+
+        div#premier {
+            font-size: 0.5rem;
+            /*10px*/
+        }
+
+        div#second {
+            font-size: 0.5rem;
+            /*10px*/
+        }
+
+        div#enfant_premier {
+            font-size: 1rem;
+            /*20px*/
+        }
+
+        div#enfant_second {
+            font-size: 1em;
+            /* 10px*/
+        }
+
+        div#premier1 {
+            font-size: 10vw;
+        }
+
+        div#second2 {
+            font-size: 5vw;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="blocPX">bloc dont la taille est définit en px</p>
+    <div class="parent">
+
+        texte element parent taille 18px
+
+        <div class="enfant">
+
+            texte element enfant taille 2em
+
+        </div>
+    </div>
+
+    mon code dans mon body
+    <div id="premier">
+        mon code dans ma 1ere balise div
+        <div id="enfant_premier">
+            enfant de ma première div
+        </div>
+    </div>
+    <div id="second">
+        mon code dans ma 2ème balise div
+        <div id="enfant_second">
+            enfant de ma deuxième div
+        </div>
+    </div>
+    <div id="premier1">
+        mon code dans ma 1ere balise div
+    </div>
+    <div id="second2">
+        mon code dans ma 2ème balise div
+    </div>
+
+</body>
+
+</html>

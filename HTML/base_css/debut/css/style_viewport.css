@@ -1,0 +1,14 @@
+html, body{
+    margin: 0;
+
+}
+.item{
+    background: lightpink;
+    height: 100vh;
+    width: 50%;
+}
+.sub-item{
+    background: lightgreen;
+    height: 300px;
+    width: 100vw;
+}

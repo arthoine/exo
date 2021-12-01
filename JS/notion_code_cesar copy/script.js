@@ -1,0 +1,1 @@
+String.fromCharCode(parseInt('01101111', 2).toString(10));

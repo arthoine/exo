@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Les formulaires HTML et JavaScript</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form>
+        <div class="form-row">
+        <input type="checkbox" name="consentement" id="consentement">J'accepte de recevoir la newsletter.
+        </div>
+        <div class="form-row">
+            Ainsi que des informations partenaires ?
+            <input type="radio" name="btn-radio" value="oui">Oui
+            <input type="radio" name="btn-radio" value="non">Non
+        </div>
+        <div class="form-row">
+            <select name="pays" id="pays">
+                <option value="France">France</option>
+                <option value="Espagne">Espagne</option>
+                <option value="Italie">Italie</option>
+                <option value="Belgique">Belgique</option>
+            </select>
+            <span id="message"></span>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

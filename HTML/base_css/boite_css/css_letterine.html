@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        p::first-line {
+            color: #2cc0b4;
+            font-style: italic;
+        }
+        p::first-letter {
+            color: red;
+        }
+        .travel-link::after {
+            content: "\2708";
+            background-color: lightgray;
+        }
+        .travel-link::before {
+            content: "\2707";
+            background-color: lightblue;
+        }
+    </style>
+
+
+
+    <a class="travel-link" href="#">Mon blog de voyage</a>
+    <p>
+        Lorem ipsum dolor sit amet consectetur <br> adipiscing elit. Vestibulum volutpat purus nisl, sed tincidunt enim
+        scelerisque at.
+    </p>
+    <p>
+        Nam pretium justo a purus vehicula, non feugiat mi faucibus. Nam malesuada ultricies libero vel suscipit.
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BackOffice</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>O'Jardin</h1>
+    </header>
+
+    <div class="wrapper">
+        <div>
+            <table>
+                <caption>Liste des fruits et légumes disponibles à la vente</caption>
+                <thead>
+                    <tr>
+                        <th>Catégorie</th>
+                        <th>Type de produit</th>
+                        <th>Quantité disponible</th>
+                        <th>Prix au kg</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4" class="italic">Fruits</td>
+                        <td>Pêches</td>
+                        <td>10kg</td>
+                        <td>3.3€</td>
+                    </tr>
+                    <tr>
+                        <td>Nectarines</td>
+                        <td>5kg</td>
+                        <td>3.39€</td>
+                    </tr>
+                    <tr>
+                        <td>Pommes</td>
+                        <td>7kg</td>
+                        <td>2.73€</td>
+                    </tr>
+                    <tr>
+                        <td>Melons</td>
+                        <td>15kg</td>
+                        <td>2.56€</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" class="italic">Légumes</td>
+                        <td>Carottes</td>
+                        <td>8kg</td>
+                        <td>1.85€</td>
+                    </tr>
+                    <tr>
+                        <td>Courgettes</td>
+                        <td>7kg</td>
+                        <td>1.73€</td>
+                    </tr>
+                    <tr>
+                        <td>Salade</td>
+                        <td>3kg</td>
+                        <td>1.06€</td>
+                    </tr>
+                    <tr>
+                        <td>Poivrons</td>
+                        <td>4kg</td>
+                        <td>3.43€</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2" class="italic">Quantité de fruits et légumes disponible</td>
+                        <td colspan="2" class="bold">56kg</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        font-family: lato;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header {
+        text-align: center;
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 15px
+    }
+    
+    thead {
+        background-color: grey;
+    }
+    
+    tfoot {
+        background-color: rgb(126, 15, 15);
+    }
+    
+    caption {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    .italic {
+        font-style: italic;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+</style>
+
+</html>

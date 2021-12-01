@@ -1,0 +1,21 @@
+@keyframes changeBackground {
+    0% {
+        background: rgb(0, 0, 0);
+    }
+    50% {
+        background: yellow;
+    }
+    100% {
+        background: red;
+        transform: translateY(400px) rotate(720deg);
+    }
+}
+
+.boxWithAnimation {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 100px;
+    background: rgb(0, 0, 0);
+    animation: 0.8s ease-in 0.5s infinite alternate changeBackground;
+}

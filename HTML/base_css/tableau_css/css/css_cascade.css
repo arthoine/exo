@@ -1,0 +1,24 @@
+p {
+    text-align: justify;
+    padding: 10px;
+    background-color: beige;
+}
+
+p.sample {
+    background-color: lightgray;
+    font-style: italic;
+}
+
+h3.method {
+    text-decoration: underline;
+}
+
+p.method {
+    background-color: gray;
+}
+
+#definition {
+    background-color: sandybrown;
+    padding: 12px;
+    border: 1px solid black;
+}
